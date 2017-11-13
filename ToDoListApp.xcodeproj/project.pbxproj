@@ -14,6 +14,7 @@
 		894637271FA392C0001562E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894637251FA392C0001562E9 /* LaunchScreen.storyboard */; };
 		894637321FA392C0001562E9 /* ToDoListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894637311FA392C0001562E9 /* ToDoListAppTests.swift */; };
 		8946373D1FA392C0001562E9 /* ToDoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946373C1FA392C0001562E9 /* ToDoListAppUITests.swift */; };
+		89BA904A1FBA29DB00DF156E /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA90491FBA29DB00DF156E /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		894637381FA392C0001562E9 /* ToDoListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8946373C1FA392C0001562E9 /* ToDoListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppUITests.swift; sourceTree = "<group>"; };
 		8946373E1FA392C0001562E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BA90491FBA29DB00DF156E /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		894637101FA392C0001562E9 = {
 			isa = PBXGroup;
 			children = (
+				89BA90491FBA29DB00DF156E /* AddTaskViewController.swift */,
 				8946371B1FA392C0001562E9 /* ToDoListApp */,
 				894637301FA392C0001562E9 /* ToDoListAppTests */,
 				8946373B1FA392C0001562E9 /* ToDoListAppUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8946371F1FA392C0001562E9 /* ViewController.swift in Sources */,
+				89BA904A1FBA29DB00DF156E /* AddTaskViewController.swift in Sources */,
 				8946371D1FA392C0001562E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
